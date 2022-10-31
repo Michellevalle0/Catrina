@@ -6,8 +6,9 @@ package mx.itson.catrina.entidades.enumeradores;
 
 /**
  *
- * @author miche
+ * @author michelle
  */
-public class TipoMovimiento {
+public enum TipoMovimiento {
     
+    DEPOSITO, RETIRO;
 }

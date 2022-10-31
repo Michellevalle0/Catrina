@@ -10,4 +10,9 @@ package mx.itson.catrina.entidades;
  */
 public class Periodo {
     
+    private String saldoInicial;
+    private String Depositos;
+    private String Retiros;
+    private String saldoFinal;
+    
 }

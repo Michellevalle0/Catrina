@@ -4,10 +4,19 @@
  */
 package mx.itson.catrina.entidades;
 
+import java.util.List;
+
 /**
  *
  * @author michelle
  */
 public class Cuenta {
+    
+    private Cliente cliente;
+    private String numero;
+    private String clave;
+    private List<Movimiento> movimientos;
+    
+    
     
 }
