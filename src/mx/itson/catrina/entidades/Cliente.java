@@ -4,11 +4,13 @@
  */
 package mx.itson.catrina.entidades;
 
+
 /**
  *
  * @author michelle
  */
 public class Cliente {
+
 
     private String nombre;
     private String direccion;

@@ -12,11 +12,41 @@ import mx.itson.catrina.entidades.enumeradores.TipoMovimiento;
  * @author miche
  */
 public class Movimiento {
+
+    /**
+     * @return the cliente
+     */
+    public Cliente getCliente() {
+        return cliente;
+    }
+
+    /**
+     * @param cliente the cliente to set
+     */
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
+    }
+
+    /**
+     * @return the tipo
+     */
+    public TipoMovimiento getTipo() {
+        return tipo;
+    }
+
+    /**
+     * @param tipo the tipo to set
+     */
+    public void setTipo(TipoMovimiento tipo) {
+        this.tipo = tipo;
+    }
     
     private Date fecha;
     private String descripcion;
-    private TipoMovimiento tipo;
     private Cuenta cuenta;
+    private TipoMovimiento tipo;
+    private Cliente cliente;
+
 
     /**
      * @return the fecha
@@ -46,20 +76,8 @@ public class Movimiento {
         this.descripcion = descripcion;
     }
 
-    /**
-     * @return the tipo
-     */
-    public TipoMovimiento getTipo() {
-        return tipo;
-    }
-
-    /**
-     * @param tipo the tipo to set
-     */
-    public void setTipo(TipoMovimiento tipo) {
-        this.tipo = tipo;
-    }
-
+    
+ 
     /**
      * @return the cuenta
      */
@@ -72,6 +90,18 @@ public class Movimiento {
      */
     public void setCuenta(Cuenta cuenta) {
         this.cuenta = cuenta;
+    }
+
+    public Object getEmpty() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    public String getSelectedItem() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    public String get() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     
     
