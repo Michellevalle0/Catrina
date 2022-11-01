@@ -6,9 +6,10 @@ package mx.itson.catrina.entidades.enumeradores;
 
 /**
  *
- * @author michelle
+ * @author miche
  */
-public enum TipoMovimiento {
+  public enum TipoMovimiento {
     
-    DEPOSITO, RETIRO;
+      DEPOSITO, RETIRO;
+    
 }
